@@ -19,9 +19,10 @@ export default function Home() {
         </div>
 
         <nav className="flex items-center gap-3">
-          <Link href="/auth" className="px-4 py-2 rounded-md border border-zinc-200 text-sm hover:bg-zinc-50">
+          <Link href="/login" className="px-4 py-2 rounded-md border border-zinc-200 text-sm hover:bg-zinc-50">
             Sign in
           </Link>
+
           <Link href="/admin" className="px-4 py-2 rounded-md bg-emerald-600 text-white text-sm hover:opacity-95">
             Admin
           </Link>
@@ -34,7 +35,7 @@ export default function Home() {
           <p className="mt-4 text-zinc-600 max-w-xl">Tsunami Fest portal helps college leaders and volunteers register teams, manage contingents, and track approvals — all in one place. Clean, secure, role-based access for CL, ACL, and Admins.</p>
 
           <div className="mt-8 flex flex-wrap gap-3">
-            <Link href="/auth" className="inline-flex items-center gap-2 px-5 py-3 rounded-md bg-emerald-600 text-white font-medium">
+            <Link href="/login" className="inline-flex items-center gap-2 px-5 py-3 rounded-md bg-emerald-600 text-white font-medium">
               Get started
             </Link>
 
@@ -70,12 +71,12 @@ export default function Home() {
         <div className="bg-white rounded-lg shadow-sm p-8">
           <h3 className="text-2xl font-semibold">Quick actions</h3>
           <div className="mt-6 grid grid-cols-1 sm:grid-cols-3 gap-4">
-            <Link href="/cl/register" className="p-4 rounded-md border border-zinc-100 hover:shadow">
+            <Link href="/login" className="p-4 rounded-md border border-zinc-100 hover:shadow">
               <h5 className="font-medium">Register contingent</h5>
               <p className="text-xs text-zinc-500 mt-1">Start a new contingent registration (CL).</p>
             </Link>
 
-            <Link href="/cl/dashboard" className="p-4 rounded-md border border-zinc-100 hover:shadow">
+            <Link href="/login" className="p-4 rounded-md border border-zinc-100 hover:shadow">
               <h5 className="font-medium">My dashboard</h5>
               <p className="text-xs text-zinc-500 mt-1">View approval status and next steps.</p>
             </Link>
